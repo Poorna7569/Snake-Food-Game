@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rancho&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rancho', sans-serif;
+}
+.container{
+    background: url("./bg.jpg");
+    min-height: 100vh;
+    background-size:  100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#board{
+    background-color: #887b38;
+    width: 90vmin;
+    height: 90vmin;
+   
+    
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+    border-radius: 7px;
+
+}
+.head{
+    background-color: #e2e481;
+    border-radius: 10px;
+}
+.food{
+    background-color: #8f0000;
+    border-radius: 10px;
+}
+.snake{
+    background-color: #491700;
+    border-radius: 10px;
+
+}
+#scorebox{
+    position: absolute;
+    top:9px ;
+    right: 218px;
+    font-size: 39px;
+    font-weight: bold;
+    color: #0c0b06;
+    
+
+}
+#highscorebox{
+    position: absolute;
+    top:59px ;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+    color: #0c0b06;
+    
+
+}
+
+
+	
+h1{
+    position: absolute;
+    font-size: 5em;
+    
+    color: #0c0b06;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.72);
+    top: 70px;
+    left: 10px;
+    
+}
